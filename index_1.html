@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> Find the Red Box </title>
+
+    <link rel="stylesheet" href="index_1.css">
+</head>
+
+<audio id="startSound" src="aduio/start_sound.mp3"></audio>
+<audio id="boxSound" src="aduio/box_click_video.mp4"></audio>
+<!-- <audio id="wrongSound" src="sounds/wrong.mp3"></audio> --> 
+
+<body>
+
+    <div class="game-container">
+
+        <div class="header">
+            <div class="title">
+                🎯
+                <h1>Find the <span>Red</span> Box</h1>
+            </div>
+
+            <div class="level selected">
+    Level 1<br>
+    <small>(8 boxes)</small>
+</div>
+
+        </div>
+
+         <p class="subtitle">
+                Click the red box. Don't get caught!
+         </p>
+
+       
+
+
+        <div class="game-board">
+
+            <div class="box">1
+                 <video class="cat-video" src="video/cat.mp4" muted loop></video>
+            </div>
+            <div class="box">2
+                 <video class="cat-video" src="video/cat.mp4" muted loop></video>
+            </div>
+            <div class="box">3
+                 <video class="cat-video" src="video/cat.mp4" muted loop></video>
+            </div>
+            <div class="box">4
+                 <video class="cat-video" src="video/cat.mp4" muted loop></video>
+            </div>
+
+
+        </div>
+
+
+        <button id="start">
+            ▶ Start Game
+        </button>
+
+
+        <div class="info">
+            <span>Total Boxes: 8</span>
+            <span>|</span>
+            <span>Red Box: 1 (Random)</span>
+        </div>
+
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
